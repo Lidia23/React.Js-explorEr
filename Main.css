@@ -1,0 +1,417 @@
+
+  .sloganHolder{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+  
+    height: 35rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    /*padding-top: 7rem;*/
+    /*padding-bottom: 7rem;*/
+  }
+  
+  
+  
+  .sloganImgHolder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'InterSemi', sans-serif;
+    font-size: 2.5em;
+    padding-bottom: 1rem;
+  }
+  
+  .slogan h2{
+    color: #b5b5b5;
+  }
+  
+  .slogan span{
+    padding: 1rem;
+    color: #929afb
+  }
+  
+  .slogan button{
+    font-size: 0.7em;
+    color: #fff;
+    background-color: #b5b5b5;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 35px;
+  }
+  .slogan button:hover{
+    font-size: 0.7em;
+    color: #b5b5b5;
+    background-color: #fff;
+    border: #b5b5b5;
+    border-style: solid;
+    padding: 10px 30px;
+    border-radius: 35px;
+  }
+  
+  
+  .cardHolder{ 
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    border-radius: -10px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-family: 'InterSemi' ,sans-serif;
+    align-items: center;
+    height: 22rem;
+  }
+  
+  .card:nth-child(even) {
+    background-color: #d2d5fc;
+  }
+  
+  .card:nth-child(odd) {
+    background-color: #747ef6;
+  }
+  
+  .holderDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .cardText {
+    padding-top: 2.2rem;
+  }
+  
+  .exchangeShowcase{
+  
+   background-image: url(./universityFull.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+  }
+  
+  
+  
+  .exchangeShowcase .container {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .exchangeShowcase .container {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  .exchangeShowcase img{ /*Makes it so the image will scale properly to the parent's container size*/
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .exchangeShowcase h2, .exchangeShowcase div {
+    color: #d9d3da;
+    font-size: 1.3rem;
+  }
+  
+  .exchangeShowcase h2 {
+    font-family: 'InterBold', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1.4rem !important;
+  }
+  
+  .exchangeShowcase div {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .exhGeneralInfo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  
+  .text-general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text-general div{
+    font-family: 'Inter';
+    
+  }
+  
+  .text-general h3{
+    font-family: 'Poppins-ExtraBold';
+    font-weight: bold !important;
+    font-size: 3rem;
+  }
+  
+  
+  
+  .courseHeader{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .courseHeader h2{
+    margin-bottom: 0.8rem;
+    color: #616cf5;
+    font-family: 'InterSemi', sans-serif;
+    font-size: 2em;
+  }
+  .courseHeader h3{
+    color: #808080;
+    font-family: 'InterSemi', sans-serif;
+    font-size: 2em;
+  }
+  
+  .courseHolder {
+    background-color: #d2d5fc;
+    padding: 4rem 1rem;
+    text-align: center;
+    align-items:end;
+    justify-content: space-around;
+  }
+  
+  .courseHolder img{
+    width: 100%; /* Make the image width fill the container */
+    height: auto; /* Preserve the aspect ratio of the image */
+    
+  }
+  
+  .courseHolder div {
+    background-color: #fff;
+    padding: 1rem; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  .courseHolder div div{ /*This here will make the exch info appear on the left side of the container*/
+    text-align: start;
+    padding: 0rem;
+    
+  }
+  
+  .courseHolder div .courseData{ /*This will overwrite the above statement only for the div .courseData*/
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.1em;
+    font-weight: bolder;
+  }
+  
+  .courseData + div {
+    color: #747ef6;
+    font-weight: bolder;
+    margin-bottom: 0rem; /*Will overwrite th bottom margin set on .courseData*/
+  }
+  
+  .applyBtn {
+    background-color: #808080; /* Gray background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none; /* Remove the default button border */
+    border-radius: 2rem; /* Increase the border-radius for rounder corners */
+    font-size: 1.2em; /* Adjust the font size as needed */
+    width: 10rem; /* Increase the width to make it longer */
+  
+    font-family: 'InterBold' sans-serif;
+    font-weight: 600;
+  }
+  
+  .applyBtn:hover {
+    background-color: #666666; /* Darker gray on hover */
+    cursor: pointer; /* Change the cursor on hover */
+  }
+  
+  
+  .consultation {
+    background-image: url('./consultant.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .formHolder{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+    color: white;
+    font-family: 'Poppins-ExtraBold';
+  }
+  
+  .formHolder > div{
+    margin: 8rem 0rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .exchangeShowcase .container {
+      margin: 3rem 0rem;
+    }
+  }
+  
+  .formHolder p {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .formGroupMargin{
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .customFormControl {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    
+    margin-bottom: 1rem;
+    background-color: transparent;
+    color: white !important;
+  }
+  
+  .rowConsult {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .customFormControl::placeholder{
+    color: white;
+  }
+  
+  .formHolder input[type="submit"] {
+    background-color: #727CF5 ;
+    border-color: #727CF5;
+    color: #fff ;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1.4rem;
+    width: 100%;
+    border-radius: 50px;
+    align-self: center;
+  }
+  .formHolder input:hover[type="submit"] {
+    color: #727CF5 ;
+    border-color: #fff;
+    background-color: #fff ;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1.4rem;
+    width: 100%;
+    border-radius: 50px;
+    align-self: center;
+  }
+  
+  .blogHolder{
+    display: flex;
+    justify-content: space-evenly ;
+    padding: 10rem 0rem;
+  }
+  
+  .blogText h1{
+  font-family: 'PoppinsBold';
+  }
+  .blogText span{
+  font-family: 'Inter';
+  }
+  
+  /**/
+  
+  .img-container{
+    position: relative;
+    display: inline-block;
+    width: 100%; /*Makes the container take the entire width of the parent div*/
+  }
+  .img-container img{
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: -0%;
+    left: 0%;
+    background-color: #5d50c6;
+    color: #ffffff;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  
+  
+  }
+  
+  .text-overlay h2, .text-overlay p {
+    margin: 0;
+  }
+  
+  .blogText {
+    text-align: start;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-button {
+    background-color: #808080; /* Gray background color */
+    color: #000000; /* White text color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    border: none; /* Remove the default button border */
+    border-radius: 2rem; /* Increase the border-radius for rounder corners */
+    font-size: 1.2em; /* Adjust the font size as needed */
+    width: 10rem; /* Increase the width to make it longer */
+    float: right; /*Pushes the button to the right*/
+  
+    font-family: 'InterBold' sans-serif;
+    font-weight: bolder;
+    
+  }
+  
+  .blog-button:hover {
+    background-color: #666666; /* Darker gray on hover */
+    cursor: pointer; /* Change the cursor on hover */
+  }
+  
+  .blogHolder div.col-md-3 {
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .fa-solid && .fa-regular{
+    color: #d2d5fc;
+  }
+  .contactscroll {
+    scroll-behavior: smooth;
+  }
+
+  .container-fluid{
+    border-radius: 0;
+  }
+  .exchangeShowcase{
+    margin-top: -65px;
+  }
