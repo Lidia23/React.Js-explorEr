@@ -1,0 +1,104 @@
+.ull{
+    margin-left: 30px;
+  }
+.h3{
+    font-size: 24px; margin-bottom: 10px;
+  }
+.text-center.p-4.div{
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+    color: #494E81;
+    margin: 0 0 -10px 175px;
+  }
+  .appendLogo{
+    display: none;
+  }
+  @media screen and (max-width: 991px) { 
+    .logo{                               
+      margin: 0px;
+      margin-left: 10%;
+      float:left;
+    }
+    .rounded appendLogo {
+      display: inline;
+      margin-left: 5%;
+      width: 40;
+      height:40
+    }
+    .fullLogo {
+      display: none;
+      margin: -100px 0 0 40px;
+      width: 115px; 
+      height: 120px;
+    }
+  }
+  @font-face {
+      font-family: 'Bebas Neue';
+      src: url("https://fonts.google.com/specimen/Bebas+Neue") format('truetype');
+    }
+    h2{
+      font-size: 27px;
+    }
+    .btn.account{
+      background-color: #fff;
+      border-color: #727CF5;
+      color: #727CF5;
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: -5px;
+    }
+    .btn.account:hover{
+      background-color: #727CF5;
+      color: #fff;
+    }
+    /* Styles for the search button */
+    .search-button {
+      background-color: #727CF5;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    
+    /* Styles for the hover and focus states of the search button */
+    .search-button:hover{
+      background-color: #fff;
+      color: #727CF5;
+      /* border-style: solid;
+      border-width: 1px;
+      border-color: #727CF5; */
+    }
+    .search-button:focus {
+      background-color: #0062cc;
+      color: #fff;
+      outline: none;
+    }
+    
+    .jst {
+      justify-content: center;
+    }
+    
+    .headerNav{
+      background-color: #727CF5;
+      padding: 1rem 0rem;
+    }
+    
+    .text-center.navHeaderItem {
+      font-size: larger;
+      color: #ffffff;
+    }
+    
+    .searchField{
+      border: #727CF5 solid;
+      border-radius: 5px;
+      border-width: 1px;
+    }
+
+    .nav-link.ms-3{
+      margin-bottom: -10px;
+    }
+   
